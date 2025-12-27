@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Contact() {
   useEffect(() => {
@@ -69,12 +70,12 @@ export default function Contact() {
           </p>
 
           <p className="mt-3">
-            <a
-                href="/donate"
-                className="inline-block rounded-md bg-green-600 px-5 py-3 text-sm font-medium text-white hover:bg-green-700 transition"
-              >
-                Donate or Partner with Us
-              </a>
+            <Link
+              to="/donate"
+              className="inline-block rounded-md bg-green-600 px-5 py-3 text-sm font-medium text-white hover:bg-green-700 transition"
+            >
+              Donate or Partner with Us
+            </Link>
           </p>
         </div>
       </div>
