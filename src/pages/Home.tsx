@@ -29,20 +29,21 @@ export default function Home() {
       {/* HERO SECTION */}
       <section className="mx-auto max-w-7xl px-4 py-20">
         <div className="grid items-center gap-16 md:grid-cols-2">
+          
           {/* Text Content */}
-          <div>
+          <div className="text-center md:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
               Shantytown Empowerment Foundation
             </h1>
 
-            <p className="mt-6 max-w-xl text-gray-600">
+            <p className="mt-6 mx-auto md:mx-0 max-w-xl text-gray-600">
               SHEF is a dedicated non-governmental organization supporting the
               SDI Nigeria Federation, committed to empowering marginalized and
               deprived communities through social and economic transformation
               initiatives.
             </p>
 
-            <div className="mt-8 flex gap-4 flex-wrap">
+            <div className="mt-8 flex flex-wrap justify-center md:justify-start gap-4">
               <a
                 href="/projects"
                 className="rounded-md bg-green-600 px-6 py-3 text-sm font-medium text-white hover:bg-green-700 transition"
@@ -63,8 +64,10 @@ export default function Home() {
           <div className="flex justify-center md:justify-end">
             <AvatarCloud />
           </div>
+
         </div>
       </section>
+
 
 
             {/* IMPACT METRICS SECTION */}
