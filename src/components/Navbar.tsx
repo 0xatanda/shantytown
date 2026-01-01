@@ -25,9 +25,9 @@ export default function Navbar() {
             src="/logo/SHEF.jpg"
             alt="Shantytown Empowerment Foundation"
             className="
-              h-12
-              sm:h-14
-              lg:h-16
+              h-18
+              sm:h-20
+              lg:h-28
               w-auto
               object-contain
             "
