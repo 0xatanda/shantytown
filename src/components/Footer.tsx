@@ -119,7 +119,7 @@ export default function Footer() {
           </h4>
 
           <p className="mt-4 text-sm text-gray-600">
-            13 Bashiru Street (1st Floor), GTCO Bank, Ojodu Berger,
+            old 1, new 13 Bashiru Street (1st Floor), GTCO Bank, Ojodu Berger,
             Lagos, Nigeria.
           </p>
 

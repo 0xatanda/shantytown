@@ -40,9 +40,9 @@ export default function Donate() {
               Local (NGN)
             </h3>
             <p className="mt-2 text-gray-600 text-sm">
-              Bank Name: [Bank Name]<br />
+              Bank Name: Access Bank<br />
               Account Name: Shantytown Empowerment Foundation<br />
-              Account Number: XXXXXXXX
+              Account Number: 1526597971 
             </p>
           </div>
 
@@ -52,10 +52,11 @@ export default function Donate() {
               International (USD)
             </h3>
             <p className="mt-2 text-gray-600 text-sm">
-              Bank Name: [Bank Name]<br />
+              Bank Name: Access Bank<br />
               Account Name: Shantytown Empowerment Foundation<br />
-              Account Number: XXXXXXXX<br />
-              SWIFT/BIC: XXXXX
+              Account Number: 1526607153 <br />
+              SWIFT/BIC: ABNGNGLA <br />
+              SORT code: 044152804 <br />
             </p>
           </div>
 
