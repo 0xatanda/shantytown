@@ -1,17 +1,16 @@
 const avatars = Array.from(
-  { length: 8 },
+  { length: 6 },
   (_, i) => `/avatars/IMG${i.toString().padStart(2, '0')}.jpg`
 )
 
 export default function AvatarCloud() {
   return (
-    <div className="mx-auto max-w-2xl px-4">
+    <div className="mx-auto max-w-3xl px-4">
       <div
         className="
           grid
           grid-cols-2
           sm:grid-cols-3
-          md:grid-cols-4
           gap-10
           place-items-center
         "
@@ -22,12 +21,13 @@ export default function AvatarCloud() {
             src={src}
             alt="Community member"
             className="
-              h-24 w-24
-              md:h-28 md:w-28
+              h-28 w-28
+              sm:h-36 sm:w-36
+              md:h-40 md:w-40
               rounded-full
               object-cover
-              border border-green-300
-              shadow-md
+              border-2 border-green-400
+              shadow-lg
               bg-white
             "
           />
