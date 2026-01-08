@@ -36,6 +36,16 @@ const publications: Publication[] = [
     source: 'African Cities Research Consortium',
     url: 'https://www.african-cities.org/transforming-informal-settlements-in-lagos-through-community-driven-wash-innovation-the-okerube-project/',
   },
+  {
+    title:
+      'Group unveils water, sanitation project in Lagos settlement',
+    summary:
+      'An article covering the launch of a new water and sanitation initiative in a Lagos informal settlement, focusing on community impact and project goals.',
+    date: 'September 22, 2025',
+    source: 'The Guardian Nigeria',
+    url: 'https://guardian.ng/news/nigeria/metro/group-unveils-water-sanitation-project-in-lagos-settlement/',
+  },
+  
 ]
 
 export default function Publications() {

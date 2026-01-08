@@ -65,6 +65,22 @@ export default function Footer() {
                     </span>
                 </a>
                 </li>
+                
+                <li>
+                <a
+                    href="https://guardian.ng/news/nigeria/metro/group-unveils-water-sanitation-project-in-lagos-settlement/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block hover:text-green-700 transition"
+                >
+                    <p className="font-medium text-gray-700">
+                    Group unveils water, sanitation project in Lagos settlement
+                    </p>
+                    <span className="text-xs text-gray-500">
+                    September 22, 2025 · The Guardian Nigeria
+                    </span>
+                </a>
+                </li>
             </ul>
         </div>
 
