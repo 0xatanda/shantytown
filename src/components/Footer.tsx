@@ -36,22 +36,6 @@ export default function Footer() {
 
                 <li>
                 <a
-                    href="https://www.african-cities.org/building-partnerships-in-development-what-needs-to-change/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-green-700 transition"
-                >
-                    <p className="font-medium text-gray-700">
-                    Building Partnerships in Development: What Needs to Change?
-                    </p>
-                    <span className="text-xs text-gray-500">
-                    November 26, 2025 · African Cities Research Consortium
-                    </span>
-                </a>
-                </li>
-
-                <li>
-                <a
                     href="https://www.african-cities.org/transforming-informal-settlements-in-lagos-through-community-driven-wash-innovation-the-okerube-project/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -78,6 +62,22 @@ export default function Footer() {
                     </p>
                     <span className="text-xs text-gray-500">
                     September 22, 2025 · The Guardian Nigeria
+                    </span>
+                </a>
+                </li>
+
+                <li>
+                <a
+                    href="https://www.african-cities.org/building-partnerships-in-development-what-needs-to-change/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block hover:text-green-700 transition"
+                >
+                    <p className="font-medium text-gray-700">
+                    Building Partnerships in Development: What Needs to Change?
+                    </p>
+                    <span className="text-xs text-gray-500">
+                    November 26, 2025 · African Cities Research Consortium
                     </span>
                 </a>
                 </li>

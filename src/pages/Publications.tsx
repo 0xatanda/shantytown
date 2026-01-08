@@ -18,15 +18,7 @@ const publications: Publication[] = [
     source: 'CHSD UNILAG',
     url: 'https://chsdunilag.org/acrc-hosts-transformative-action-research-and-safeguarding-workshop-in-lagos/',
   },
-  {
-    title:
-      'Building Partnerships in Development: What Needs to Change?',
-    summary:
-      'An analytical blog exploring priorities for transforming partnership paradigms in development practice and policy, with a focus on inclusivity and local leadership.',
-    date: 'November 26, 2025',
-    source: 'African Cities Research Consortium',
-    url: 'https://www.african-cities.org/building-partnerships-in-development-what-needs-to-change/',
-  },
+  
   {
     title:
       'Transforming Informal Settlements in Lagos Through Community-Driven WASH Innovation: The Okerube Project',
@@ -44,6 +36,16 @@ const publications: Publication[] = [
     date: 'September 22, 2025',
     source: 'The Guardian Nigeria',
     url: 'https://guardian.ng/news/nigeria/metro/group-unveils-water-sanitation-project-in-lagos-settlement/',
+  },
+  
+  {
+    title:
+      'Building Partnerships in Development: What Needs to Change?',
+    summary:
+      'An analytical blog exploring priorities for transforming partnership paradigms in development practice and policy, with a focus on inclusivity and local leadership.',
+    date: 'November 26, 2025',
+    source: 'African Cities Research Consortium',
+    url: 'https://www.african-cities.org/building-partnerships-in-development-what-needs-to-change/',
   },
   
 ]
