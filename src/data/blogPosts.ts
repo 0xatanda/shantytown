@@ -32,8 +32,8 @@ export const blogPosts: BlogPost[] = [
     blocks: [
         {
         type: 'image',
-        src: '/public/imgaes/IMG_5869.jpg',
-        caption: 'Women-led water committee meeting in Okerube',
+        src: '/imgaes/img2.jpg',
+        caption: 'Women-led water committee launching charter of demands in Okerube',
       },
 
       {
@@ -66,7 +66,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'image',
-        src: '/public/imgaes/img0.jpeg',
+        src: '/imgaes/img0.jpg',
         caption: 'Women-led water committee in technical traing',
       },
       {
@@ -110,7 +110,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'image',
-        src: '/public/imgaes/img1.jpg',
+        src: '/imgaes/img1.jpg',
         caption: 'Members of the committee standing with the donated borehole',
       },
       {
@@ -155,7 +155,7 @@ export const blogPosts: BlogPost[] = [
 
       {
         type: 'image',
-        src: '/public/imgaes/IMG_4735.jpg',
+        src: '/imgaes/img3.jpg',
         caption: 'ACRC team meeting with local government Chairman and Councilors',
       },
 
