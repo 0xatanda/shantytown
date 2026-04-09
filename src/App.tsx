@@ -8,6 +8,7 @@ import Projects from './pages/Projects'
 import Publications from './pages/Publications'
 import Contact from './pages/Contact'
 import Donate from './pages/Donate'
+import BlogDetails from './pages/BlogDetails'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/publications" element={<Publications />} />
           <Route path='/contact' element={<Contact />}/>
           <Route path="/donate" element={<Donate />} />
+          <Route path="/blog/:id" element={<BlogDetails />} />
         </Routes>
       </main>
       <Footer />
