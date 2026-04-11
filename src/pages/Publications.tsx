@@ -17,6 +17,7 @@ type Blog = {
   summary: string
   date: string
   author: string
+  slug: string
 }
 
 type Content = Publication | Blog
@@ -32,6 +33,7 @@ const content: Content[] = [
       'A field-based narrative on water access challenges in Lagos communities.',
     date: 'April 9, 2026',
     author: 'Nafiu Atanda',
+    slug: 'no-water-no-dignity',
   },
 
   // ✅ EXISTING PUBLICATIONS (unchanged, just add type)
@@ -126,7 +128,7 @@ export default function Publications() {
             {/* ✅ CONDITIONAL BUTTON */}
             {item.type === 'blog' ? (
               <Link
-                to={`/blog/${item.id}`}
+                to={`/blog/${item.slug}`}
                 className="mt-6 inline-block rounded-md bg-green-600 px-5 py-2 text-sm font-medium text-white hover:bg-green-700 transition"
               >
                 Read Blog →

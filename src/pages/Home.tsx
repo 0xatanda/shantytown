@@ -9,7 +9,7 @@ const partners = [
   { name: 'CHSD-UNILAG-logo', logo: '/partners/CHSD-UNILAG-logo.jpg' },
   { name: 'Cuso_logo_Colour', logo: '/partners/Cuso_logo_Colour.jpg' },
   { name: 'KYCTV', logo: '/partners/kyctv.jpg' },
-  { name: 'SDI Nigeria', logo: '/partners/federation.jpg' },
+  { name: 'Nigeria Slum/Informal Settlement Federation (NSISF)', logo: '/partners/federation.jpg' },
 ]
 
 const metrics = [
@@ -37,7 +37,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-6 mx-auto md:mx-0 max-w-xl text-gray-600">
-              SHEF is a dedicated non-governmental organization supporting the SDI Nigeria Federation, committed to empowering marginalized and deprived communities through social and economic transformation initiatives aimed at improving livelihoods, promoting sustainable development, and fostering inclusive growth across Nigeria. SHEF and SDI Nigeria Federation are Nigeria affiliates of Slum Dwellers International (SDI). Through partnerships, advocacy, and community-driven projects, SHEF works to address critical needs in housing, water, sanitation, health, and economic empowerment, helping communities build resilience and achieve lasting progress.
+              SHEF is a dedicated non-governmental organization supporting the Nigeria Slum/Informal Settlement Federation (NSISF), committed to empowering marginalized and deprived communities through social and economic transformation initiatives aimed at improving livelihoods, promoting sustainable development, and fostering inclusive growth across Nigeria. SHEF and SDI Nigeria Federation are Nigeria affiliates of Slum Dwellers International (SDI). Through partnerships, advocacy, and community-driven projects, SHEF works to address critical needs in housing, water, sanitation, health, and economic empowerment, helping communities build resilience and achieve lasting progress.
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center md:justify-start gap-4">

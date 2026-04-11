@@ -3,10 +3,11 @@ import { blogPosts } from '../data/blogPosts'
 import type { BlogBlock } from '../data/blogPosts'
 
 export default function BlogDetails() {
-  const { id } = useParams()
+  const { slug } = useParams()
 
-  const postId = Number(id)
-  const post = blogPosts.find((p) => p.id === postId)
+const post = blogPosts.find(
+  (p) => p.slug === slug
+)
 
   if (!post) return <p className="p-10">Post not found</p>
 

@@ -22,7 +22,7 @@ export default function App() {
           <Route path="/publications" element={<Publications />} />
           <Route path='/contact' element={<Contact />}/>
           <Route path="/donate" element={<Donate />} />
-          <Route path="/blog/:id" element={<BlogDetails />} />
+          <Route path="/blog/:slug" element={<BlogDetails />} />
         </Routes>
       </main>
       <Footer />

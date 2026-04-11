@@ -28,7 +28,7 @@ export default function About() {
         {/* Introduction */}
         <p className="mx-auto max-w-3xl text-center text-lg leading-relaxed text-gray-700">
           Shantytown Empowerment Foundation (SHEF) is a non-governmental
-          organization that supports the SDI Nigeria Federation. We work with
+          organization that supports the Nigeria Slum/Informal Settlement Federation (NSISF). We work with
           marginalized and deprived urban communities to advance social and
           economic transformation through community-led initiatives, advocacy,
           and inclusive development practices.

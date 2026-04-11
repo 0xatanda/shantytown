@@ -15,6 +15,7 @@ export type BlogBlock =
 
 export type BlogPost = {
   id: number
+  slug: string
   title: string
   date: string
   author: string
@@ -23,12 +24,12 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+
     id: 0,
-    title:
-      'No Water, No Dignity: Inside the Everyday WASH Crisis in Lagos’ Informal Settlements',
-    date: 'April 9, 2026',
+    slug: 'no-water-no-dignity',
+    title: 'No Water, No Dignity: Inside the Everyday WASH Crisis in Lagos’ Informal Settlements',
+    date: 'March 9, 2026',
     author: 'Nafiu Atanda',
-    
     blocks: [
         {
         type: 'image',
@@ -72,13 +73,25 @@ export const blogPosts: BlogPost[] = [
       {
         type: 'text',
         value:
-          'In 2023, a women-led water committee was formed in Okerube with support from the Shantytown Empowerment Foundation (SHEF), working alongside informal settlement groups and partners. Similar committees exist in Ogunsanya (Coker-Orile), and in Idiaraba and Mosafejo communities in Oworo, Kosofe.',
+          'In 2023, a women-led water committee was formed in Okerube with support from the Shantytown Empowerment Foundation (SHEF), in partnership with Heinrich-Böll-Stiftung (hbs), working alongside informal settlement groups and other partners. Similar committees exist in Ogunsanya (Coker-Orile), and in the Idiaraba and Mosafejo communities in Oworo, Kosofe.',
       },
 
       {
         type: 'text',
         value:
-          'Each committee has about 20 members, mostly women, with a few men supporting technical tasks. The idea behind the committee is rooted in a recurring problem: water projects in these communities often fail. Many are delivered through political donations or constituency projects, but without proper engagement or maintenance plans. Over time, they stop working and are abandoned.',
+          'Each committee has about 20 members, mostly women, with a few men supporting technical tasks. The members were also trained in basic plumbing techniques and received financial literacy training, with support from SHEF in partnership with hbs.',
+      },
+
+      {
+        type: 'text',
+        value:
+          'SHEF, in partnership with hbs, also supported the women’s committee in developing a charter of demands, which was presented to the community councillor as part of their engagement with local authorities.',
+      },
+
+      {
+        type: 'text',
+        value:
+          'The idea behind the committee is rooted in a recurring problem: water projects in these communities often fail. Many are delivered through political donations or constituency projects, but without proper engagement or maintenance plans. Over time, they stop working and are abandoned.',
       },
 
       {
@@ -203,11 +216,6 @@ export const blogPosts: BlogPost[] = [
           'In a place where systems often fall short, Okerube is showing what happens when residents step in — not just to cope, but to build something that lasts.',
       },
 
-      {
-        type: 'text',
-        value:
-          '',
-      },
 
       {
         type: 'text',

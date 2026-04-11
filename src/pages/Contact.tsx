@@ -26,7 +26,7 @@ export default function Contact() {
             <h3 className="text-lg font-semibold">Office Address</h3>
             <p className="mt-2 text-gray-600">
               13 Bashiru Street (1st Floor)<br />
-              Opposite GTCO Bank, Ojodu Berger<br />
+              Ojodu Berger<br />
               Lagos, Nigeria
             </p>
           </div>
